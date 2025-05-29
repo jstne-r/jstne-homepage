@@ -16,7 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoBehance, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -32,15 +32,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a Creator based in Manila!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Justine Felicilda
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Creator ( Artist / Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/justine.png"
               alt="Profile image"
               width="100"
               height="100"
@@ -73,7 +73,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          {/* Takuya is a freelance and a full-stack developer based in Osaka with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
@@ -92,7 +92,16 @@ const Home = () => (
           >
             Dev as Life
           </Link>
-          &quot; has more than 100k subscribers.
+          &quot; has more than 100k subscribers. */}
+          Justine is a multimedia creator based in Manila, Philippines, 
+          with a degree in Computer Science from Pamantasan ng Lungsod ng Maynila. 
+          She’s passionate about blending art and technology—whether that’s building 
+          digital products, designing user interfaces, or creating engaging user experiences. 
+          Her work combines development and design to bring fresh, visually compelling ideas 
+          to life. Outside of web and digital design. Besides development, she’s also into 
+          film and photography, and loves capturing and editing visual stories that add 
+          another layer to her creative work. 
+
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -100,7 +109,7 @@ const Home = () => (
             href="/works"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
+            colorScheme="yellow"
           >
             My portfolio
           </Button>
@@ -109,42 +118,40 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Timeline
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2024 - Present</BioYear>
+           IT Specialist | Omni Channel Solutions
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2023 - 2024</BioYear>
+            Multimedia Google Volunteer | GDSC PLM
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2023</BioYear>
+          IT Intern | Omni Channel Solutions
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2022</BioYear>
+          Working as a freelancer | Web Design, Photo & Video Editing
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          Things I ♥
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+          {/* <Link href="https://illust.odoruinu.net/" target="_blank"> */}
             Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          {/* </Link> */}
+          , Playing Guitar,{' '}
+          {/* <Link href="https://500px.com/p/craftzdog" target="_blank"> */}
             Photography
-          </Link>
-          , Leica, Machine Learning
+          {/* </Link> */}
+          , Film, Front-end Development
         </Paragraph>
       </Section>
 
@@ -154,17 +161,17 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/jstne-r" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @jstne-r
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://twitter.com/inkdrop_app" target="_blank">
               <Button
                 variant="ghost"
@@ -174,32 +181,32 @@ const Home = () => (
                 @inkdrop_app (English)
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://behance.net/jstne-r" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoBehance />}
               >
-                @craftzdog (日本語)
+                @jstne-r
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/dnpilms" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @dnpilms
               </Button>
             </Link>
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
@@ -214,25 +221,24 @@ const Home = () => (
           >
             A Markdown note-taking app
           </GridItem>
-        </SimpleGrid>
+        </SimpleGrid> */}
 
         <Heading as="h3" variant="section-title">
-          Newsletter
+          CV/Resume
         </Heading>
         <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
+          Explore my professional journey, skills, and experiences in detail.
         </p>
 
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href=""
             scroll={false}
             leftIcon={<EmailIcon />}
-            colorScheme="teal"
+            colorScheme="yellow"
           >
-            Sign up my newsletter here
+            Click Me
           </Button>
         </Box>
       </Section>

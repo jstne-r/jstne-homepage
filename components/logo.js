@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
+import FootprintIcon from './icons/footprint' 
+import MediaIcon from './icons/media'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -16,7 +17,7 @@ const LogoBox = styled.span`
     transition: 200ms ease;
   }
 
-  &:hover > svg {
+  &:hover > img {
     transform: rotate(20deg);
   }
 `
@@ -26,14 +27,14 @@ const Logo = () => {
     (<Link href="/" scroll={false}>
 
       <LogoBox>
-        <FootprintIcon />
+        <MediaIcon />
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily='M PLUS Rounded 1c", sans-serif'
           fontWeight="bold"
           ml={3}
         >
-          Takuya Matsuyama
+         Justine Felicilda
         </Text>
       </LogoBox>
 
