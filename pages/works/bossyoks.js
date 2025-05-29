@@ -4,7 +4,7 @@ import {
     Link,
     List,
     ListItem,
-    AspectRatio
+    // AspectRatio
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, WorkImage, Meta } from '../../components/work'
@@ -21,7 +21,7 @@ import {
             Boss Yoks is a web thesis project that focuses on creating a platform and
             helping to promoting a newly opened unlimited wings restaurant in Sampaloc Manila. 
             The project aims to provide a user-friendly interface for customers to explore the menu,
-            location and learn more about the restaurant's offerings.
+            location and learn more about the restaurant&apos;s offerings.
         </P>
         <List ml={4} my={4}>
           <ListItem>

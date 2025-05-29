@@ -45,3 +45,6 @@ Check out [LICENSE](./LICENSE) for more detail.
 Looking for a Markdown note-taking app? Check out my app called Inkdrop:
 
 [![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
+
+dependencies: package.json.
+// "-": "^0.0.1", "g": "^2.0.1",

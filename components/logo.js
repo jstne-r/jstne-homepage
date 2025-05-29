@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint' 
+// import FootprintIcon from './icons/footprint' 
 import MediaIcon from './icons/media'
 import styled from '@emotion/styled'
 
