@@ -128,7 +128,7 @@
     react-focus-lock "^2.9.6"
     react-remove-scroll "^2.5.7"
 
-"@chakra-ui/styled-system@>=2.0.0":
+"@chakra-ui/styled-system@^2.12.0", "@chakra-ui/styled-system@>=2.0.0":
   version "2.12.0"
   resolved "https://registry.npmjs.org/@chakra-ui/styled-system/-/styled-system-2.12.0.tgz"
   integrity sha512-zoqLw1I2y4GlZ0LDoyw8o0JjoDOW6u0IwFPAoHuw0UMbP8glHUGvwEL1STug/i/GzBKw83yoF6ae41HIQvhMww==
@@ -4208,13 +4208,15 @@ typed-array-length@^1.0.7:
     possible-typed-array-names "^1.0.0"
     reflect.getprototypeof "^1.0.6"
 
+typescript@^5.8.3, typescript@>=3.3.1, typescript@>=4.2.0:
+  version "5.8.3"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz"
+  integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
+
 typescript@>=2.7, typescript@4.9.5:
   version "4.9.5"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
-
-typescript@>=3.3.1, typescript@>=4.2.0:
-  version "5.8.3"
 
 uid-promise@1.0.0:
   version "1.0.0"
