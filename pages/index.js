@@ -233,7 +233,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://justine-felicilda.tiiny.site"
+            href="https://drive.google.com/file/d/1gudmXc3pzIJIsAIwj95cmpY1HQBk753q/view?usp=sharing"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="yellow"
