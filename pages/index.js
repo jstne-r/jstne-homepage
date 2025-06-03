@@ -164,7 +164,7 @@ const Home = () => (
             <Link href="https://github.com/jstne-r" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<IoLogoGithub />}
               >
                 @jstne-r
@@ -186,7 +186,7 @@ const Home = () => (
             <Link href="https://behance.net/jstne-r" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="blue"
                 leftIcon={<IoLogoBehance />}
               >
                 @jstne-r

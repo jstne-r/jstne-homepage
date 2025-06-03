@@ -13,6 +13,7 @@ import { WorkGridItem } from '../components/grid-item'
 // import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 // import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 // import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbcomingSoon from '../public/images/works/comingsoon_eyecatch.png'
 import thumbOmart from '../public/images/works/omart_eyecatch.png'
 import thumbNumberPuzzle from '../public/images/works/numberpuzzle_eyecatch.png'  
 import thumbBankExpo from '../public/images/works/bankexpo_eyecatch.png'
@@ -140,16 +141,21 @@ const Works = () => (
 
       </SimpleGrid>
 
-      {/* <Section delay={0.4}>
+      <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          Other Works
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
+          <WorkGridItem id="" thumbnail={thumbcomingSoon} title="">
+            New works to be posted soon!
+          </WorkGridItem>
+        </Section>
+        {/* <Section delay={0.5}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
             Twitter client app for iPhone Safari
           </WorkGridItem>
@@ -168,8 +174,8 @@ const Works = () => (
             P2P private file sharing tool with MSN Messenger integration for
             Windows
           </WorkGridItem>
-        </Section>
-      </SimpleGrid> */}
+        </Section> */}
+      </SimpleGrid>
     </Container>
   </Layout>
 )
