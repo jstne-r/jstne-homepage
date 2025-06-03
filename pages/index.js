@@ -35,7 +35,7 @@ const Home = () => (
         Hello, I&apos;m a Creator based in Manila!
       </Box>
 
-      <Box display={{ md: 'flex' }}>
+      {/* <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Justine Felicilda
@@ -49,6 +49,42 @@ const Home = () => (
           textAlign="center"
         >
           <Box
+            borderColor="whiteAlpha.800"
+            borderWidth={2}
+            borderStyle="solid"
+            w="100px"
+            h="100px"
+            display="inline-block"
+            borderRadius="full"
+            overflow="hidden"
+          >
+            <Image
+              src="/images/justine.png"
+              alt="Profile image"
+              width="100"
+              height="100"
+            />
+          </Box>
+        </Box>
+      </Box> */}
+
+      <Box
+        display="flex"
+        flexDirection={{ base: 'column-reverse', md: 'row'}}
+      >
+        <Box flexGrow={1}>
+          <Heading as= "h2" variant="page-title">
+            Justine Felicilda
+          </Heading>
+          <p>Cretor ( Artist / Developer / Designer )</p>
+        </Box>
+        <Box
+          flexShrink={0}
+          mt={{ base: 4, md: 0}}
+          ml={{ md:6}}
+          textAlign="center"
+        >
+          <Box 
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
