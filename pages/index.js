@@ -129,8 +129,7 @@ const Home = () => (
             Dev as Life
           </Link>
           &quot; has more than 100k subscribers. */}
-          Justine is a multimedia creator based in Manila, Philippines, 
-          with a degree in Computer Science from Pamantasan ng Lungsod ng Maynila. 
+          Justine is a multimedia creator based in Manila, Philippines. 
           She’s passionate about blending art and technology—whether that’s building 
           digital products, designing user interfaces, or creating engaging user experiences. 
           Her work combines development and design to bring fresh, visually compelling ideas 
