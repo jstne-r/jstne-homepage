@@ -1,6 +1,6 @@
 # Jstne Homepage
 
-[https://jstne-homepage.vercel.app/](jstne-homepage.vercel.app)
+[https://jstne-homepage.vercel.app/](https://jstne-homepage.vercel.app/)
 
 ## Stack
 
