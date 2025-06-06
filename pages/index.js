@@ -276,6 +276,17 @@ const Home = () => (
             Click Me
           </Button>
         </Box>
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="/external/cv/src/app/page.jsx"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="yellow"
+          >
+            CV Page test
+          </Button>
+        </Box>
       </Section>
     </Container>
   </Layout>
