@@ -1,6 +1,12 @@
-# Jstne Homepage
+# Takuya's Homepage
 
-[https://jstne-homepage.vercel.app/](jstne-homepage.vercel.app)
+[https://www.craftz.dog/](https://www.craftz.dog/)
+
+## Tutorial
+
+Watch how I built this website on YouTube:
+
+[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
 
 ## Stack
 
@@ -8,7 +14,6 @@
 - [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
 - [Three.js](https://threejs.org/) - 3D library for JavaScript
 - [Framer Motion](https://www.framer.com/motion/) - An animation library for React
-
 
 ## Project structure
 
@@ -37,4 +42,9 @@ Check out [LICENSE](./LICENSE) for more detail.
 
 ---
 
-A work by Takuya Matsuyama. All rights Reserved
+Looking for a Markdown note-taking app? Check out my app called Inkdrop:
+
+[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
+
+dependencies: package.json.
+// "-": "^0.0.1", "g": "^2.0.1",
