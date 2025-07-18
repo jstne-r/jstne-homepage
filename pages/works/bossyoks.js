@@ -18,7 +18,7 @@ import {
           Boss Yoks <Badge>2020</Badge>
         </Title>
         <P>
-            Boss Yoks is a web thesis project that focuses on creating a platform and
+            Boss Yoks is a web project that focuses on creating a platform and
             helping to promoting a newly opened unlimited wings restaurant in Sampaloc Manila. 
             The project aims to provide a user-friendly interface for customers to explore the menu,
             location and learn more about the restaurant&apos;s offerings.
