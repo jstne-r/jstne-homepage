@@ -130,12 +130,14 @@ const Home = () => (
           </Link>
           &quot; has more than 100k subscribers. */}
           Justine is a multimedia creator based in Manila, Philippines. 
-          She’s passionate about blending art and technology—whether that’s building 
-          digital products, designing user interfaces, or creating engaging user experiences. 
-          Her work combines development and design to bring fresh, visually compelling ideas 
-          to life. Outside of web and digital design. Besides development, she’s also into 
-          film and photography, and loves capturing and editing visual stories that add 
-          another layer to her creative work. 
+          She’s passionate about blending art and technology—whether that’s 
+          building digital products, designing user interfaces, or crafting 
+          engaging user experiences. Her work combines development, UI/UX design, 
+          and visual storytelling to bring fresh, compelling ideas to life. With a 
+          strong eye for detail and a user-centered approach, she designs intuitive, 
+          aesthetically-driven experiences that connect with people. Outside of web 
+          and digital design, she’s also into film and photography, and loves capturing 
+          and editing visual stories that add another layer to her creative work.
 
         </Paragraph>
         <Box align="center" my={4}>
@@ -186,7 +188,7 @@ const Home = () => (
           {/* <Link href="https://500px.com/p/craftzdog" target="_blank"> */}
             Photography
           {/* </Link> */}
-          , Film, Front-end Development
+          , Film, UI/UX, Front-end Development
         </Paragraph>
       </Section>
 
