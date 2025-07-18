@@ -46,7 +46,7 @@ import {
             </Link>
           </ListItem> */}
         </List>
-  
+        <WorkImage src="/images/works/ui-ux - BankExpo.png" alt="Bank Expo UI/UX" />
         <WorkImage src="/images/works/bankexpo_1.png" alt="Bank Expo 1" />
         <WorkImage src="/images/works/bankexpo_2.png" alt="Bank Expo 2" />
         <WorkImage src="/images/works/bankexpo_3.png" alt="Bank Expo 3" />

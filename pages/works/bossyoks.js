@@ -46,7 +46,7 @@ import {
             </Link>
           </ListItem> */}
         </List>
-  
+        <WorkImage src="/images/works/ui-ux - BossYoks.png" alt="Boss Yoks UI/UX" />
         <WorkImage src="/images/works/bossyoks_1.png" alt="Boss Yoks" />
         
 

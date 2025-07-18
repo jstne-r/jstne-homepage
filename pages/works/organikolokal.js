@@ -18,7 +18,7 @@ import {
           Organiko Lokal <Badge>2022</Badge>
         </Title>
         <P>
-            Organiko lokal is an e-commerce web projct that aims to promote local organic products and
+            Organiko lokal is an e-commerce web project that aims to promote local organic products and
             sustainable farming practices. The project focuses on creating a platform that 
             connects local farmers with consumers directly buying fresh, organic produce.
         </P>
@@ -45,7 +45,8 @@ import {
             </Link>
           </ListItem> */}
         </List>
-  
+        
+        <WorkImage src="/images/works/ui-ux - OrganikoLokal.png" alt="Organiko Lokal UI/UX" />
         <WorkImage src="/images/works/organikolokal_1.png" alt="Organiko Lokal" />
 
 
