@@ -188,7 +188,7 @@ const Home = () => (
           {/* <Link href="https://500px.com/p/craftzdog" target="_blank"> */}
             Photography
           {/* </Link> */}
-          , Film, UI/UX, Front-end Development
+          , Visual Graphics, Animation, Film, UI/UX, Front-end Development
         </Paragraph>
       </Section>
 
