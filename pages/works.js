@@ -20,6 +20,7 @@ import thumbBankExpo from '../public/images/works/bankexpo_eyecatch.png'
 import thumbBossYoks from '../public/images/works/bossyoks_eyecatch.png'
 import thumbOrganikoLokal from '../public/images/works/organikolokal_eyecatch.png'
 import thumbGameTheory from '../public/images/works/gametheory_eyecatch.png'
+import thumbPubmats from '../public/images/works/pubmat thumbnail.png'
 
 
 const Works = () => (
@@ -151,16 +152,20 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="" thumbnail={thumbcomingSoon} title="">
-            New works to be posted soon!
+          <WorkGridItem id="pubmats" thumbnail={thumbPubmats} title="Pubmats">
+            Posters, promotional materials and other presentations for various events and campaigns that I've made.
           </WorkGridItem>
         </Section>
+        
+        {/* for video */}
         {/* <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="" thumbnail={thumbcomingSoon} title="Videos">
+            A collection of videos for various events and campaigns that I've made.
           </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
+        </Section> */}
+
+
+        {/* <Section delay={0.5}>
           <WorkGridItem
             id="freedbtagger"
             thumbnail={thumbFreeDBTagger}
@@ -175,6 +180,8 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section> */}
+
+
       </SimpleGrid>
     </Container>
   </Layout>
