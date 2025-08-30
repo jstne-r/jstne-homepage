@@ -22,7 +22,7 @@ import {
         <List ml={4} my={4}>
           <ListItem>
               <Meta>Platform</Meta>
-              <span>Windows/MacOS</span>
+              <span>Windows, Adobe Photoshop, Canva, Figma </span>
           </ListItem>
         </List>
         
