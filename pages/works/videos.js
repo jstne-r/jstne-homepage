@@ -19,7 +19,7 @@ import {
           Videos   <Badge>Collections</Badge>
         </Title>
         <P>
-         A collection of videos for various events and campaigns that I've made.
+         A collection of videos for various events and campaigns that I&apos;ve made.
         </P>
         <List ml={4} my={4}>
         <ListItem>

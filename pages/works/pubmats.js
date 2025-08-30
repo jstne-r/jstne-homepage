@@ -17,7 +17,7 @@ import {
           Pubmats   <Badge>Collections</Badge>
         </Title>
         <P>
-         A collection of posters, promotional materials and other presentations for various events and campaigns that I've made.
+         A collection of posters, promotional materials and other presentations for various events and campaigns that I&apos;ve made.
         </P>
         <List ml={4} my={4}>
           <ListItem>

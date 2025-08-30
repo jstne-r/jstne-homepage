@@ -153,14 +153,14 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="pubmats" thumbnail={thumbPubmats} title="Pubmats">
-            Posters, promotional materials and other presentations for various events and campaigns that I've made.
+            Posters, promotional materials and other presentations for various events and campaigns that I&apos;ve made.
           </WorkGridItem>
         </Section>
         
         {/* for video */}
         {/* <Section delay={0.5}>
           <WorkGridItem id="" thumbnail={thumbcomingSoon} title="Videos">
-            A collection of videos for various events and campaigns that I've made.
+            A collection of videos for various events and campaigns that I&apos;ve made.
           </WorkGridItem>
         </Section> */}
 
