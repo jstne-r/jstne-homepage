@@ -17,18 +17,18 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Justine's homepage" />
         <meta name="author" content="Justine Felicilda" />
-        <meta name="author" content="craftzdog" />
+        <meta name="author" content="jstne" />
         <link rel="paw2-icon" href="paw2-icon.png" />
         <link rel="shortcut icon" href="/faviconpaw.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Justine Felicilda" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
+        <meta name="twitter:site" content="jstne" />
+        <meta name="twitter:creator" content="jstne" />
+        <meta name="twitter:image" content="" />
         <meta property="og:site_name" content="Justine Felicilda" />
         <meta name="og:title" content="Justine Felicilda" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta property="og:image" content="" />
         <title>Justine Felicilda - Homepage</title>
       </Head>
 
