@@ -27,9 +27,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "three": "^0.157.0",
-    "vercel": "^42.2.0",
-    "vpploader": "github:bastecklein/vpploader"
-  },
+    "vercel": "^42.2.0"
+    },
   "devDependencies": {
     "eslint": "^8.52.0",
     "eslint-config-next": "^13.5.6",
